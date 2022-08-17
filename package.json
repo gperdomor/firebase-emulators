@@ -1,0 +1,15 @@
+{
+  "name": "firebase-emulator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx firebase emulators:start",
+    "stop": "lsof -t -i:9099 -i:5001 -i:8080 -i:9000 -i:5000 -i:8085 -i:9199 -i:9299 -i:4000 | xargs kill -9"
+  },
+  "author": "Gustavo Perdomo <gperdomor@gmail.com> (https://gperdomor.dev/)",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-tools": "11.7.0"
+  }
+}
