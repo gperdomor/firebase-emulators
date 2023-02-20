@@ -9,6 +9,6 @@
   "author": "Gustavo Perdomo <gperdomor@gmail.com> (https://gperdomor.dev/)",
   "license": "MIT",
   "dependencies": {
-    "firebase-tools": "11.7.0"
+    "firebase-tools": "11.23.1"
   }
 }
